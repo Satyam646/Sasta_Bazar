@@ -12,7 +12,7 @@ export default function HomePage() {
     fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
       .then((json) => {
-        console.log(json);
+     
         setProductDetails(json);
       });
   };
